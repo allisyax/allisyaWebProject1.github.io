@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin:10%;
+  padding:0;
+  text-align: absolute;
+  scroll-behavior:smooth;
+  display: flex;
+  flex-direction: column;
+}
+body{
+    background-image: url('image/bgflower.jpg');
+}
+h2{
+    margin: 60px;
+    color: gray;
+}
+.columns{
+  grid-template-columns: auto;
+  justify-content: center;
+}
